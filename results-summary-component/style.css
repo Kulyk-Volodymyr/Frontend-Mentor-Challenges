@@ -18,6 +18,7 @@ body {
   max-width: 740px;
   position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 .result {
@@ -247,7 +248,6 @@ button:hover {
   margin: 0 auto 4px auto;
   position: absolute;
   text-align: center;
-  z-index: -1;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);

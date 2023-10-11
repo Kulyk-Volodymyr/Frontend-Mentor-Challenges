@@ -21,6 +21,7 @@ body {
   position: relative;
   text-align: center;
   width: 288px;
+  z-index: 1;
 }
 
 img {
@@ -78,7 +79,6 @@ p {
   margin: 0 auto 8px auto;
   position: absolute;
   text-align: center;
-  z-index: -1;
 }
 
 .attribution a {

@@ -4,8 +4,8 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Frontend Mentor](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/results-summary-component/)
+- Solution URL: [Frontend Mentor](https://your-solution-url.com)
 
 ![This is an image](./design/desktop-preview.jpg)
 
