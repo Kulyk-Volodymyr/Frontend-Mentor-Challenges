@@ -1,0 +1,86 @@
+body {
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  padding: 24px 0;
+  position: relative;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 8px 24px #ddd;
+  border-radius: 20px;
+  height: 465px;
+  padding: 16px;
+  position: relative;
+  text-align: center;
+  width: 288px;
+}
+
+img {
+  animation-name: onLoadAnimation;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  border-radius: 10px;
+  opacity: 0.4;
+  transform: scale(0.9);
+  width: 100%;
+}
+
+h2 {
+  animation-name: onLoadAnimation;
+  animation-delay: 100ms;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  opacity: 0.4;
+  transform: scale(0.9);
+}
+
+p {
+  animation-name: onLoadAnimation;
+  animation-delay: 200ms;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  opacity: 0.4;
+  padding: 0 1rem;
+  transform: scale(0.9);
+}
+
+@keyframes onLoadAnimation {
+  from {
+    opacity: 0.4;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.attribution {
+  align-items: flex-end;
+  display: flex;
+  font-size: 11px;
+  height: 100%;
+  margin: 0 auto 8px auto;
+  position: absolute;
+  text-align: center;
+  z-index: -1;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

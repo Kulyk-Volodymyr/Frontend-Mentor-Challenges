@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="result">
+        <h3>Your Result</h3>
+        <div class="result-circle">
+          <p id="result-value">0</p>
+          <p>of 100</p>
+        </div>
+        <h1 id="result-title">Great</h1>
+        <p id="result-text">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+
+      <div class="summary">
+        <h2>Summary</h2>
+
+        <div class="summary-item" id="reaction">
+          <div class="summary-title">
+            <img src="./assets/images/icon-reaction.svg" alt="icon" />
+            <p>Reaction</p>
+          </div>
+          <p><span id="reaction-result">0</span>&nbsp;<span>/ 100</span></p>
+        </div>
+
+        <div class="summary-item" id="memory">
+          <div class="summary-title">
+            <img src="./assets/images/icon-memory.svg" alt="icon" />
+            <p>Memory</p>
+          </div>
+          <p><span id="memory-result">0</span>&nbsp;<span>/ 100</span></p>
+        </div>
+
+        <div class="summary-item" id="verbal">
+          <div class="summary-title">
+            <img src="./assets/images/icon-verbal.svg" alt="icon" />
+            <p>Verbal</p>
+          </div>
+          <p><span id="verbal-result">61</span>&nbsp;<span>/ 100</span></p>
+        </div>
+
+        <div class="summary-item" id="visual">
+          <div class="summary-title">
+            <img src="./assets/images/icon-visual.svg" alt="icon" />
+            <p>Visual</p>
+          </div>
+          <p><span id="visual-result">72</span>&nbsp;<span>/ 100</span></p>
+        </div>
+
+        <button type="button" id="button">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          &nbsp;Frontend Mentor
+        </a>
+        . Coded by&nbsp;<a href="#">Volodymyr Kulyk</a>.
+      </p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

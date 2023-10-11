@@ -1,0 +1,520 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --body-color: #e1e1e1;
+  --bg-color: #e5e5e5;
+  --bg-color-light: #ebebeb;
+  --shadow-light: #fff;
+  --shadow-dark: #ccc;
+  --font-dark: #333;
+  --font-gray: #5a5a5a;
+  --color-blue: #66c0dd;
+  --color-blue-dark: #47a8c9;
+  --color-green: #8be050;
+  --color-green-dark: #73ca35;
+  --color-yellow: #e6ce00;
+  --color-yellow-dark: #ccb802;
+  --color-orange: #ec8525;
+  --color-orange-dark: #db7617;
+}
+
+.fontBlue {
+  color: var(--color-blue);
+  transition: 0.5s;
+}
+
+.item:hover .fontBlue {
+  color: var(--color-blue-dark);
+  transition: 0.5s;
+}
+
+.fontGreen {
+  color: var(--color-green);
+  transition: 0.5s;
+}
+
+.item:hover .fontGreen {
+  color: var(--color-green-dark);
+  transition: 0.5s;
+}
+
+.fontYellow {
+  color: var(--color-yellow);
+  transition: 0.5s;
+}
+
+.item:hover .fontYellow {
+  color: var(--color-yellow-dark);
+  transition: 0.5s;
+}
+
+.fontOrange {
+  color: var(--color-orange);
+  transition: 0.5s;
+}
+
+.item:hover .fontOrange {
+  color: var(--color-orange-dark);
+  transition: 0.5s;
+}
+
+.body {
+  background-color: var(--body-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  min-width: 260px;
+  padding: 0 1em;
+}
+
+.header {
+  border-radius: 2em;
+  margin: 1.5em auto;
+  max-width: 1400px;
+  opacity: 0.8;
+  padding: 0 1em;
+}
+
+.headerShadow {
+  box-shadow: 0.2em 0.2em 1em var(--shadow-dark),
+    -0.2em -0.2em 1.2em var(--shadow-light);
+}
+
+.title {
+  color: var(--font-gray);
+  margin: auto;
+  max-width: 1100px;
+}
+
+.titleFirstLine {
+  display: block;
+  font-size: 0.6em;
+  padding: 0.5em 2em;
+}
+
+.titleSecondLine {
+  align-items: center;
+  border-radius: 0.5em;
+  color: var(--font-gray);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.4em 1em;
+  text-align: center;
+}
+
+.titleSecondLineShadow {
+  box-shadow: 0.2em 0.2em 0.6em #ddd, -0.2em -0.2em 1em var(--shadow-light);
+}
+
+.titleSecondLine:hover {
+  box-shadow: 0.2em 0.2em 0.6em #ddd, -0.2em -0.2em 1em var(--shadow-light),
+    0.2em 0.2em 0.6em #ccc, -0.2em -0.2em 1em var(--shadow-light),
+    0.2em 0.2em 0.6em #ccc, -0.2em -0.2em 1em var(--shadow-light);
+}
+
+.titleSecondLine a > span:first-child {
+  color: var(--color-yellow);
+  transition: all 0.5s;
+}
+
+.titleSecondLine:hover a > span:first-child {
+  color: var(--color-yellow-dark);
+  transition: all 0.5s;
+}
+
+.titleSecondLine a > span:nth-child(2) {
+  color: var(--color-green);
+  transition: all 0.5s;
+}
+
+.titleSecondLine:hover a > span:nth-child(2) {
+  color: var(--color-green-dark);
+  transition: all 0.5s;
+}
+
+.titleSecondLine a > span:last-child {
+  color: var(--color-blue);
+  transition: all 0.5s;
+}
+
+.titleSecondLine:hover a > span:last-child {
+  color: var(--color-blue-dark);
+  transition: all 0.5s;
+}
+
+.titleSecondLine a {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: "Kanit", sans-serif;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.titleSecondLine > span {
+  color: var(--font-dark);
+  font-size: 0.7em;
+  width: 100%;
+}
+
+.titleThirdLine {
+  display: block;
+  font-size: 0.6em;
+  padding: 0.5em 2em;
+  text-align: right;
+}
+
+.titleThirdLine span:first-child {
+  font-size: 0.8em;
+}
+
+.titleThirdLine span:last-child {
+  display: inline-block;
+}
+
+.main {
+  display: grid;
+  gap: 1.5em;
+  grid-template-rows: 1fr;
+  margin: 0 auto 1.5em auto;
+  max-width: 1400px;
+}
+
+.item {
+  background-color: var(--body-color);
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+  padding: 1em;
+  width: 100%;
+}
+
+.itemShadow {
+  box-shadow: 0.2em 0.2em 1em var(--shadow-dark),
+    -0.2em -0.2em 1.2em var(--shadow-light);
+}
+
+.item:hover {
+  box-shadow: 0.2em 0.2em 1em var(--shadow-dark),
+    -0.2em -0.2em 1.2em var(--shadow-light), 0.2em 0.2em 1em var(--shadow-dark),
+    -0.2em -0.2em 1.2em var(--shadow-light), 0.2em 0.2em 1em var(--shadow-dark),
+    -0.2em -0.2em 1.2em var(--shadow-light);
+}
+
+.imageContainer {
+  border-radius: 1em;
+  overflow: hidden;
+  position: relative;
+}
+
+.itemImage {
+  display: block;
+  position: relative;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+.item:hover .itemImage {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.imageShadow {
+  background-color: #0002;
+  border-radius: 1em;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+.imageShadowOnLoad {
+  box-shadow: inset 0.2em 0.2em 0.6em #0003,
+    inset -0.2em -0.2em 0.6em var(--shadow-light);
+}
+
+.item:hover .imageShadow {
+  background-color: #00000012;
+  box-shadow: inset 0.2em 0.2em 0.6em #0005,
+    inset -0.2em -0.2em 0.6em var(--shadow-light);
+  transition: all 0.5s ease-in-out;
+}
+
+.imageContainer:hover .imageShadow {
+  background-color: #0000;
+}
+
+.infoWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  margin-top: 1.2em;
+}
+
+.infoTitle {
+  color: var(--font-dark);
+  font-family: "Kanit", sans-serif;
+  font-size: 1.4em;
+  line-height: 1em;
+}
+
+.infoTitle a {
+  color: inherit;
+  text-decoration-color: #3330;
+  transition: 0.5s;
+}
+
+.infoTitle a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--font-dark);
+  transition: 0.5s;
+}
+
+.infoDifficulty {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  padding: 0.6em 0;
+}
+
+.infoDescription {
+  color: var(--font-gray);
+  font-size: 1em;
+}
+
+.link {
+  border-radius: 1em;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.2em;
+  margin-top: 1em;
+  padding: 0.2em 0.6em;
+  transition: all 0.5s;
+  width: fit-content;
+}
+
+.link:hover {
+  background-color: var(--bg-color-light);
+  box-shadow: 0.4em 0.4em 1em #ddd, -0.4em -0.4em 1em var(--shadow-light);
+  transition: all 0.5s;
+}
+
+.link > a {
+  color: var(--font-dark);
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.hrefNewbie:hover {
+  transition: all 0.5s;
+  color: var(--color-blue-dark);
+}
+
+.hrefJunior:hover {
+  transition: all 0.5s;
+  color: var(--color-green-dark);
+}
+
+.hrefIntermediate:hover {
+  transition: all 0.5s;
+  color: var(--color-yellow-dark);
+}
+
+.hrefAdvanced:hover {
+  transition: all 0.5s;
+  color: var(--color-orange-dark);
+}
+
+@media screen and (min-width: 420px) {
+  .titleSecondLine > span {
+    width: fit-content;
+  }
+
+  .titleSecondLine a {
+    transform: translateY(-1px);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .titleFirstLine {
+    font-size: 0.7em;
+    padding: 0.5em 3em;
+  }
+
+  .titleSecondLine a {
+    font-size: 1em;
+    transform: translateY(-2px);
+  }
+
+  .titleSecondLine > span {
+    font-size: 0.8em;
+  }
+
+  .titleThirdLine {
+    font-size: 0.7em;
+    padding: 0.5em 3em;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .body {
+    font-size: 16px;
+  }
+
+  .titleSecondLine a {
+    font-size: 1.1em;
+  }
+
+  .main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 680px) {
+  .titleFirstLine {
+    font-size: 0.8em;
+  }
+
+  .titleSecondLine a {
+    font-size: 1.3em;
+    transform: translateY(-3px);
+  }
+
+  .titleSecondLine > span {
+    font-size: 1em;
+  }
+
+  .titleThirdLine {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    padding: 0 1.5em;
+  }
+
+  .header {
+    padding: 0 1.5em;
+  }
+
+  .headerShadow {
+    box-shadow: 0.4em 0.4em 1.4em var(--shadow-dark),
+      -0.4em -0.4em 1.6em var(--shadow-light);
+  }
+
+  .titleFirstLine {
+    font-size: 0.9em;
+  }
+
+  .titleSecondLineShadow {
+    box-shadow: 0.4em 0.4em 1em #ddd, -0.4em -0.4em 1.2em var(--shadow-light);
+  }
+
+  .titleSecondLine:hover {
+    box-shadow: 0.4em 0.4em 1em #ddd, -0.4em -0.4em 1.2em var(--shadow-light),
+      0.4em 0.4em 1em #ccc, -0.4em -0.4em 1.2em var(--shadow-light);
+  }
+
+  .titleSecondLine a {
+    font-size: 1.5em;
+    transform: translateY(-4px);
+  }
+
+  .titleSecondLine > span {
+    font-size: 1.1em;
+  }
+
+  .titleThirdLine {
+    font-size: 0.9em;
+  }
+
+  .main {
+    gap: 2em;
+    margin: 2em auto 1.5em auto;
+  }
+
+  .itemShadow {
+    box-shadow: 0.4em 0.4em 1.4em var(--shadow-dark),
+      -0.4em -0.4em 1.6em var(--shadow-light);
+  }
+
+  .item:hover {
+    box-shadow: 0.4em 0.4em 1.4em var(--shadow-dark),
+      -0.4em -0.4em 1.6em var(--shadow-light),
+      0.4em 0.4em 1.4em var(--shadow-dark),
+      -0.4em -0.4em 1.6em var(--shadow-light),
+      0.4em 0.4em 1.4em var(--shadow-dark),
+      -0.4em -0.4em 1.6em var(--shadow-light);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .body {
+    padding: 0 2em;
+  }
+
+  .header {
+    padding: 0 2em;
+  }
+
+  .titleFirstLine {
+    font-size: 1em;
+  }
+
+  .titleSecondLine a {
+    font-size: 2em;
+    transform: translateY(-4px);
+  }
+
+  .titleSecondLine > span {
+    font-size: 1.4em;
+  }
+
+  .titleThirdLine {
+    font-size: 1em;
+  }
+
+  .main {
+    gap: 2.5em;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2.5em auto 2em auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .body {
+    padding: 0 3em;
+  }
+
+  .header {
+    margin: 3em auto;
+  }
+
+  .titleSecondLine {
+    padding: 0 2em;
+  }
+
+  .titleSecondLine a {
+    font-size: 2.3em;
+  }
+
+  .titleSecondLine > span {
+    font-size: 1.6em;
+  }
+
+  .main {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto 3em auto;
+  }
+
+  .link {
+    padding: 0.2em 1em;
+  }
+}
