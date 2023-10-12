@@ -5,7 +5,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/results-summary-component/)
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-with-animated-counters-wUs6TNJdn5)
 
 ![This is an image](./design/desktop-preview.jpg)
 

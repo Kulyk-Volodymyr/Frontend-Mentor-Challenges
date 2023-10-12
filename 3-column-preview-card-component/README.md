@@ -5,6 +5,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/3-column-preview-card-component/)
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/three-column-preview-card-component-g6NOv3yi98)
 
 ![This is an image](./design/desktop-preview.jpg)
