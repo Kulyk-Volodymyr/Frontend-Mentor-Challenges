@@ -1,0 +1,171 @@
+body {
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 260px;
+  padding: 2em 1em 3em 1em;
+  position: relative;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 0 auto;
+  max-width: 400px;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+}
+
+picture img {
+  display: block;
+  width: 100%;
+}
+
+.description {
+  padding: 25px;
+}
+
+.description h3 {
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: smaller;
+  letter-spacing: 0.5em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.description h1 {
+  background: -webkit-linear-gradient(
+    315deg,
+    hsl(212, 21%, 14%) 48%,
+    hsla(30, 38%, 92%, 0.8) 49.8% 50.2%,
+    hsl(212, 21%, 14%) 52%
+  );
+  background-color: hsl(212, 21%, 14%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 300% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1em;
+  margin: 0.4em auto 0.5rem auto;
+
+  transition-duration: 0.8s;
+}
+
+.description h1:hover {
+  background-position: left;
+  cursor: pointer;
+}
+
+.description p {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.7em;
+}
+
+.description h2 {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.6em auto 0.5em auto;
+}
+
+.description h2 span {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  margin-left: 1em;
+  text-decoration: line-through;
+  vertical-align: 50%;
+}
+
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 0.5em;
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  padding: 1em;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: hsl(156, 60%, 20%);
+}
+
+.attribution {
+  align-items: flex-end;
+  display: flex;
+  font-size: 11px;
+  font-weight: 300;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1em;
+  position: absolute;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(158, 36%, 37%);
+  font-weight: 500;
+}
+
+.attribution a:hover {
+  color: hsl(156, 60%, 20%);
+}
+
+@media screen and (min-width: 640px) {
+  body {
+    padding: 2em 1em;
+  }
+
+  .container {
+    flex-direction: row;
+    max-width: 600px;
+  }
+
+  .image {
+    flex: 1;
+  }
+
+  .description-container {
+    flex: 1;
+  }
+
+  .description {
+    padding: 32px;
+  }
+
+  .description h1 {
+    margin: 0.7em auto 0.8em auto;
+  }
+
+  .description p {
+    line-height: 1.6em;
+  }
+
+  .description h2 {
+    margin: 0.8em auto;
+  }
+}
