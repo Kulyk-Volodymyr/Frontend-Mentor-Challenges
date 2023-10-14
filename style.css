@@ -259,6 +259,10 @@
   margin-top: 1.2em;
 }
 
+.info {
+  width: 100%;
+}
+
 .infoTitle {
   color: var(--font-dark);
   font-family: "Kanit", sans-serif;

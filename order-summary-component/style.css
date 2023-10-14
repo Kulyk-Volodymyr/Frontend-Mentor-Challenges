@@ -1,0 +1,195 @@
+body {
+  align-items: center;
+  background-color: hsl(225, 100%, 94%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/pattern-background-mobile.svg);
+  box-sizing: border-box;
+  display: flex;
+  font-family: "Red Hat Display", sans-serif;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 340px;
+  padding: 0 1.5em;
+  position: relative;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 0 20px 20px 0 hsla(245, 75%, 52%, 0.1);
+  font-size: 14px;
+  margin: 2em auto;
+  max-width: 450px;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+}
+
+.container > img {
+  width: 100%;
+}
+
+.container h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 1.5em;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  margin: 1.3em auto 0 auto;
+}
+
+.container > p {
+  color: hsl(224, 23%, 55%);
+  letter-spacing: 0.6px;
+  line-height: 1.6rem;
+  margin: 16px auto 0 auto;
+  width: 80%;
+}
+
+.plan {
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  height: 82px;
+  justify-content: space-between;
+  margin: 1.5em 1.5em 0 1.5em;
+}
+
+.info {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.info img {
+  margin: auto 1.3em;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.info h3 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  letter-spacing: -0.07em;
+  margin: 0 auto;
+}
+
+.info p {
+  color: hsl(224, 23%, 55%);
+  margin: 0 auto;
+}
+
+.btn-change {
+  border: none;
+  background-color: transparent;
+  color: hsl(245, 75%, 52%);
+  font-weight: 900;
+  text-decoration: underline;
+  letter-spacing: -0.08em;
+  margin-right: 0.8em;
+}
+
+.btn-change:hover {
+  color: #766cf1;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-proceed {
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 20px 20px 0 hsla(245, 75%, 52%, 0.1);
+  color: hsl(225, 100%, 94%);
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  margin: 2em 1.5em 1.5em 1.5em;
+  padding: 1.2em 0;
+  width: calc(100% - 3em);
+}
+
+.btn-proceed:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  border: none;
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  padding-bottom: 2.5em;
+}
+
+.btn-cancel:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+.attribution {
+  align-items: flex-end;
+  display: flex;
+  font-size: 11px;
+  font-weight: 300;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1em;
+  position: absolute;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+
+  .container {
+    font-size: 16px;
+  }
+
+  .container h1 {
+    font-size: 1.8em;
+    letter-spacing: -0.07em;
+    margin: 2.3rem auto 0 auto;
+  }
+
+  .container > p {
+    letter-spacing: 0px;
+  }
+
+  .plan {
+    height: 100px;
+    margin: 1.5em 3em 0 3em;
+  }
+
+  .btn-change {
+    letter-spacing: 0;
+    margin-right: 1.3em;
+  }
+
+  .btn-proceed {
+    letter-spacing: 0.01em;
+    margin: 1.8em 1.5em 2em 1.5em;
+    padding: 1em 0;
+    width: calc(100% - 6em);
+  }
+
+  .btn-cancel {
+    padding-bottom: 3.5em;
+  }
+}
