@@ -5,6 +5,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/single-price-grid-component/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/results-summary-with-animated-counters-wUs6TNJdn5)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-price-component-mnbhbhu_g5)
 
 ![This is an image](./design/desktop-preview.jpg)
