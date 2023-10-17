@@ -5,7 +5,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/news-homepage/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-with-microanimation-nUtwzamV4b)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-news-homepage-olor4ieiUg)
 
 ![This is an image](./design/desktop-preview.jpg)
 
