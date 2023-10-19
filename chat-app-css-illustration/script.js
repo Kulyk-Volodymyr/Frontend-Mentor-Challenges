@@ -81,7 +81,7 @@ setTimeout(() => {
 
 setTimeout(() => {
   msg2.style.opacity = "1";
-}, 8600); //8600
+}, 8600);
 /* Second message end */
 
 const msg3 = document.getElementById("msg3");
