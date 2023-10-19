@@ -5,7 +5,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/base-apparel-coming-soon/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/animated-chat-app-illustration-gsJJdhg5CB)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-9ilkxJUdzd)
 
 ![This is an image](./design/desktop-preview.jpg)
 
