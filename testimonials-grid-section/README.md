@@ -5,7 +5,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/testimonials-grid-section/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-news-homepage-olor4ieiUg)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-testimonials-section-Tu6Ozudz-v)
 
 ![This is an image](./design/desktop-preview.jpg)
 
