@@ -5,6 +5,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/nft-preview-card-component/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-news-homepage-olor4ieiUg)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-o-YzJSx33f)
 
 ![This is an image](./design/desktop-preview.jpg)
