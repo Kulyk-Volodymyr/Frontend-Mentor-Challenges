@@ -1,0 +1,176 @@
+:root {
+  --size: 700px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 240px;
+  padding: 3em 1.5em;
+  position: relative;
+}
+
+.background {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+.bg-top {
+  background-image: url("./images/bg-pattern-top.svg");
+  background-size: contain;
+  height: var(--size);
+  position: absolute;
+  right: 50%;
+  bottom: 45%;
+  width: var(--size);
+}
+
+.bg-bottom {
+  background-image: url("./images/bg-pattern-bottom.svg");
+  background-size: contain;
+  height: var(--size);
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  width: var(--size);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1em;
+  height: 374px;
+  margin: auto;
+  max-width: 350px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 5;
+}
+
+h3 {
+  color: hsl(229, 23%, 23%);
+  font-size: 1em;
+  font-weight: 700;
+}
+
+h3 span {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+h4 {
+  color: hsl(227, 10%, 46%);
+  font-size: 0.8em;
+  font-weight: 400;
+  margin-top: 0.5em;
+}
+
+.card-top {
+  background-image: url("./images/bg-pattern-card.svg");
+  height: 140px;
+  position: relative;
+}
+
+.card-top img {
+  bottom: 0;
+  border: 5px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+  cursor: pointer;
+  position: absolute;
+  transform: translate(-50%, 50%) scale(1) rotateY(0deg);
+  transition: all 0.5s;
+  left: 50%;
+}
+
+.card-top img:hover {
+  transform: translate(-50%, 50%) scale(1.2) rotateY(360deg);
+}
+
+.card-middle {
+  border-top: 1px solid hsl(0, 0%, 59%);
+  height: 145px;
+}
+
+.card-middle h3 {
+  margin-top: 4em;
+}
+
+.card-bottom {
+  border-top: 1px solid hsl(0, 0%, 59%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5em;
+  width: 100%;
+}
+
+.card-bottom div {
+  flex: 1;
+}
+
+.card-bottom h3 {
+  margin-top: 1.4em;
+}
+
+.card-bottom p {
+  color: hsl(227, 10%, 46%);
+  font-size: 0.6em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 0.2em;
+}
+
+.attribution {
+  align-items: flex-end;
+  color: hsl(229, 23%, 23%);
+  display: flex;
+  font-size: 11px;
+  font-weight: 300;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1em 0;
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+}
+
+.attribution a {
+  color: hsl(229, 23%, 23%);
+  font-weight: 400;
+}
+
+.attribution a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+@media screen and (min-width: 600px) {
+  :root {
+    --size: 800px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  :root {
+    --size: 900px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  :root {
+    --size: 1000px;
+  }
+}
