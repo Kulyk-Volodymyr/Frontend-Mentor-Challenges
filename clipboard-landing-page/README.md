@@ -5,6 +5,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/clipboard-landing-page/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-news-homepage-olor4ieiUg)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-clipboard-page-fDBUH47a47)
 
 ![This is an image](./design/desktop-preview.jpg)
