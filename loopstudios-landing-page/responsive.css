@@ -1,0 +1,314 @@
+@media screen and (min-width: 360px) {
+  /* =============== Banner ===============*/
+  #banner h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.8px;
+    padding: 0.7em 0.7em 0.5em 0.7em;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .wrapper {
+    max-width: calc(1114px + 5em);
+    padding: 0 2.5em;
+  }
+
+  /* =============== Banner ===============*/
+  #banner img {
+    height: 700px;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+  }
+
+  #banner h1 {
+    font-size: 3.2em;
+    letter-spacing: 0.4px;
+    margin-top: 0.4em;
+    max-width: 450px;
+    padding: 0.5em 0.6em 0.3em 0.6em;
+  }
+
+  /* =============== About ================*/
+  #about {
+    margin: 7.8em auto;
+  }
+
+  #about h2 {
+    font-size: 2.4em;
+    letter-spacing: 1.2px;
+  }
+
+  /* =============== Creations ============*/
+  #creations h2 {
+    font-size: 2.4em;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2em;
+    max-width: 560px;
+  }
+
+  .card {
+    margin: auto;
+  }
+
+  .card img {
+    width: auto;
+  }
+
+  .card h3 {
+    font-size: 1.7em;
+    margin: 0 auto 1em 1.1em;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  /* =============== Header ===============*/
+  .invisible-item {
+    display: flex;
+  }
+
+  .header-wrapper {
+    margin-top: 3.3em;
+  }
+
+  .header-wrapper > img {
+    transform: scale(0.9);
+  }
+
+  #header-navbar-btn {
+    display: none;
+  }
+
+  #header-navbar {
+    background-color: transparent;
+    height: fit-content;
+    position: relative;
+    width: fit-content;
+  }
+
+  #header-navbar ul {
+    flex-direction: row;
+    gap: 1.2em;
+    margin-left: 0em;
+  }
+
+  #header-navbar li {
+    font-family: "Alata", sans-serif;
+    font-size: 1em;
+    line-height: initial;
+    text-transform: capitalize;
+  }
+
+  #header-navbar ul li::after {
+    left: 25%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: calc(1114px + 8em);
+    padding: 0 4em;
+  }
+
+  /* =============== Header ===============*/
+  #header-navbar ul {
+    gap: 1.7em;
+  }
+
+  /* =============== Banner ===============*/
+  #banner img {
+    height: 600px;
+  }
+
+  #banner h1 {
+    font-size: 4em;
+    letter-spacing: 0.7px;
+    margin-top: 0.8em;
+    max-width: 540px;
+    padding: 0.5em 0.6em 0.3em 0.6em;
+  }
+
+  /* =============== About ================*/
+  #about {
+    margin: 9.2em auto;
+  }
+
+  #about h2 {
+    font-size: 2.7em;
+    letter-spacing: 1.4px;
+  }
+
+  /* =============== Creations ============*/
+  #creations {
+    margin-bottom: 8.4em;
+  }
+
+  #creations h2 {
+    font-size: 2.7em;
+  }
+
+  .card h3 {
+    font-size: 1.9em;
+    margin: 0 auto 1em 1.2em;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  /* =============== Footer ===============*/
+  footer {
+    padding: 2.8em 0 1em 0;
+  }
+
+  .footer-info {
+    display: flex;
+    height: 74px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer-left,
+  .footer-right {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  .footer-left img {
+    margin: 0;
+  }
+
+  .footer-left ul {
+    flex-direction: row;
+    gap: 2.2em;
+    margin: 0;
+  }
+
+  .footer-right div {
+    gap: 1.2em;
+    margin: 0 0 0 auto;
+  }
+
+  .footer-right p {
+    margin-top: 0;
+  }
+
+  .attribution {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* =============== Header ===============*/
+  .header-wrapper {
+    margin-top: 4.3em;
+  }
+
+  .header-wrapper > img {
+    transform: scale(1);
+  }
+
+  #header-navbar ul {
+    gap: 2.2em;
+  }
+
+  /* =============== Banner ===============*/
+  #banner img {
+    height: auto;
+  }
+
+  #banner h1 {
+    font-size: 4.7em;
+    letter-spacing: 1px;
+    margin-top: 1.1em;
+    max-width: 652px;
+  }
+
+  /* =============== About ================*/
+  #about {
+    margin: 10.6em auto 12.4em auto;
+    position: relative;
+  }
+
+  #about img {
+    max-width: 70%;
+    width: auto;
+  }
+
+  #about > div {
+    background-color: hsl(0, 0%, 100%);
+    bottom: 0;
+    padding: 8% 4em 0 7.5%;
+    position: absolute;
+    max-width: 600px;
+    right: 0;
+    text-align: left;
+    width: 50%;
+  }
+
+  #about h2 {
+    margin: 0 0 0.7em 0;
+    width: 100%;
+  }
+
+  #about p {
+    margin: 0;
+    width: 100%;
+  }
+  /* =============== Creations ============*/
+  #creations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin-bottom: 6.4em;
+  }
+
+  #creations h2 {
+    font-size: 3em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    letter-spacing: 1.6px;
+    text-align: left;
+  }
+
+  .cards {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5.4em 0 6em 0;
+    max-width: 100%;
+  }
+
+  .card h3 {
+    font-size: 2.1em;
+    margin: 0 auto 1em 1.3em;
+  }
+
+  #creations button {
+    display: block;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  /* =============== About ================*/
+  #about h2 {
+    font-size: 3em;
+    letter-spacing: 1.6px;
+  }
+
+  /* =============== Creations ============*/
+  #creations h2 {
+    font-size: 3em;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    letter-spacing: 1.6px;
+    text-align: left;
+  }
+}
