@@ -5,7 +5,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/loopstudios-landing-page/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-room-home-page-L1DhWeEFV-)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-loopstudios-page-ypVF6Lx9en)
 
 ![This is an image](./design/desktop-preview.jpg)
 
