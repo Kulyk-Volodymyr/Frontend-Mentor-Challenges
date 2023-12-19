@@ -5,7 +5,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/easybank-landing-page/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-loopstudios-page-ypVF6Lx9en)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-easybank-landing-page-mQgfZ8V_lw)
 
 ![This is an image](./design/desktop-preview.jpg)
 
