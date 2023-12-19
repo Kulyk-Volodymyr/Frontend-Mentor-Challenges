@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --underline-width: 0%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  min-width: 280px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+img {
+  display: block;
+}
+
+.wrapper {
+  margin: auto;
+  padding: 0 1.4em;
+  width: 100%;
+}
+
+.request-btn {
+  background-image: linear-gradient(
+    90deg,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  border: none;
+  border-radius: 2em;
+  color: hsl(0, 0%, 100%);
+  display: block;
+  font-family: "Public Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  padding: 0.9em 2.3em;
+  margin: auto;
+}
+
+.request-btn:hover {
+  background-image: linear-gradient(
+    90deg,
+    hsl(136, 65%, 68%),
+    hsl(192, 70%, 68%)
+  );
+  cursor: pointer;
+}
+
+main {
+  margin-top: 64px;
+}
+
+h1 {
+  color: hsl(233, 26%, 24%);
+  font-size: 2.1em;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+h2 {
+  color: hsl(233, 26%, 24%);
+  font-size: 1.8em;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+h3 {
+  color: hsl(233, 26%, 24%);
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+p {
+  color: hsl(233, 8%, 62%);
+}
+
+.section-1 {
+  background-color: hsl(0, 0%, 98%);
+  background-image: url("./images/bg-intro-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100% 344px;
+  padding: 18em 0 5em 0;
+  position: relative;
+}
+
+.section-1 p {
+  font-size: 0.8em;
+  line-height: 1.7em;
+  margin: 1.4em auto 2.1em auto;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  height: 280px;
+  justify-content: center;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.section-1 img {
+  bottom: 0;
+  display: block;
+  max-width: 370px;
+  position: absolute;
+  transform: translateY(4%);
+  width: 92%;
+}
+
+.section-2 {
+  background-color: hsl(220, 16%, 96%);
+  padding: 3.5em 0 3.4em 0;
+}
+
+.section-2 p {
+  font-size: 0.8em;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+.section-2-info p {
+  margin-top: 1em;
+}
+
+.section-2 .cards {
+  gap: 1.7em;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.section-2 h3 {
+  margin: 1.5em 0 1em 0;
+}
+
+.section-3 {
+  background-color: hsl(0, 0%, 98%);
+  padding: 4.5em 0 5.4em 0;
+  position: relative;
+}
+
+.section-3 .cards {
+  gap: 1.6em;
+  margin-top: 2em;
+}
+
+.section-3 .card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.25em;
+  overflow: hidden;
+}
+
+.section-3 img {
+  object-fit: cover;
+  height: 200px;
+  display: block;
+  width: 100%;
+}
+
+.section-3-card-info {
+  margin: 1.6em 1.6em 2em 1.6em;
+}
+
+.section-3-card-info h4 {
+  color: hsl(233, 26%, 24%);
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: -1.3px;
+  margin: 0.5em 0;
+}
+
+.section-3-card-info h4:hover {
+  color: hsl(164, 65%, 51%);
+  cursor: pointer;
+}
+
+.section-3-card-info p:first-child {
+  font-size: 0.5em;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+
+.section-3-card-info p:last-child {
+  font-size: 0.7em;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+.cards {
+  display: grid;
+}
+
+.card {
+  width: 100%;
+}
+
+.card img {
+  margin: auto;
+}
+
+.attribution {
+  bottom: 1em;
+  font-size: 0.7em;
+  font-weight: 300;
+  left: 50%;
+  max-width: 600px;
+  min-width: 200px;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 80vw;
+}
+
+.attribution p {
+  color: hsl(233, 8%, 72%);
+}
+
+.attribution a {
+  color: hsl(233, 8%, 62%);
+  font-weight: 400;
+}
+
+.attribution a:hover {
+  color: hsl(164, 65%, 51%);
+}

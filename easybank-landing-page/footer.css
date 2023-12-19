@@ -1,0 +1,140 @@
+footer {
+  background-color: hsl(233, 26%, 24%);
+  text-align: center;
+  padding: 2.2em 0 2.4em 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 0.8em;
+  margin: 1.6em auto 0 auto;
+  width: fit-content;
+}
+
+.social-icons img {
+  height: 24px;
+}
+
+footer img:hover {
+  cursor: pointer;
+  filter: invert(40%) sepia(80%) saturate(2800%) hue-rotate(130deg);
+}
+
+.footer-navbar {
+  margin: 2em 0 1.3em 0;
+}
+
+.footer-navbar ul div {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  height: 100px;
+}
+
+.footer-navbar ul li {
+  color: hsl(0, 0%, 98%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 0.8em;
+  list-style: none;
+}
+
+.footer-navbar ul li:hover {
+  color: hsl(164, 65%, 51%);
+  cursor: pointer;
+}
+
+.footer-right {
+  width: 100%;
+}
+
+.footer-right button {
+  margin: auto;
+}
+
+.footer-right p {
+  font-size: 0.9em;
+  letter-spacing: -0.8px;
+  margin-top: 1.8em;
+}
+
+@media screen and (min-width: 860px) {
+  footer {
+    padding: 2.8em 0 2.6em 0;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-left {
+    align-items: center;
+    display: flex;
+    gap: 3.5em;
+  }
+
+  .footer-left-1 {
+    text-align: left;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 0.6em;
+    margin: 2.7em auto 0 auto;
+    width: fit-content;
+  }
+
+  .social-icons img {
+    height: 21px;
+  }
+
+  .footer-navbar {
+    margin: 0;
+  }
+
+  .footer-navbar ul {
+    display: flex;
+    text-align: left;
+    gap: 3em;
+  }
+
+  .footer-navbar ul div {
+    height: fit-content;
+    gap: 0.9em;
+  }
+
+  .footer-right {
+    width: fit-content;
+  }
+
+  .footer-right button {
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer-left {
+    gap: 5.5em;
+  }
+
+  .footer-navbar ul {
+    gap: 5em;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .footer-left {
+    gap: 7.5em;
+  }
+
+  .footer-navbar ul {
+    gap: 7em;
+  }
+}

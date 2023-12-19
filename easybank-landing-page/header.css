@@ -1,0 +1,141 @@
+header {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  height: 64px;
+  min-width: 280px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.header-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#header-navbar-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#header-navbar {
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.25em;
+  position: absolute;
+  top: 88px;
+  width: calc(100% - 2.8em);
+}
+
+#header-navbar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+  margin: 1.8em auto;
+  text-align: center;
+}
+
+#header-navbar li {
+  color: hsl(233, 26%, 24%);
+  font-family: "Public Sans", sans-serif;
+  font-size: 1em;
+  list-style: none;
+}
+
+#header-navbar ul li::after {
+  background-image: linear-gradient(
+    90deg,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  bottom: -4px;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0;
+  position: relative;
+  width: var(--underline-width);
+}
+
+#header-navbar ul li:hover {
+  cursor: pointer;
+  --underline-width: 100%;
+}
+
+.invisible-navbar,
+.invisible-button {
+  display: none;
+}
+
+.visible-navbar {
+  display: flex;
+}
+
+@media screen and (min-width: 620px) {
+  header {
+    box-shadow: none !important;
+    height: 80px;
+    position: relative;
+  }
+
+  .invisible-navbar {
+    display: flex;
+  }
+
+  .header-wrapper {
+    height: 100%;
+  }
+
+  #header-navbar-btn {
+    display: none;
+  }
+
+  #header-navbar {
+    background-color: transparent;
+    border-radius: none;
+    height: 100%;
+    position: relative;
+    top: 0;
+    width: fit-content;
+  }
+
+  #header-navbar ul {
+    flex-direction: row;
+    gap: 1.6em;
+    height: 100%;
+    margin: 0;
+  }
+
+  #header-navbar li {
+    align-items: center;
+    color: hsl(233, 8%, 62%);
+    display: flex;
+    font-size: 0.8em;
+    height: 100%;
+    margin: 0;
+    position: relative;
+  }
+
+  #header-navbar ul li::after {
+    bottom: 0px;
+    position: absolute;
+  }
+
+  #header-navbar ul li:hover {
+    color: hsl(233, 26%, 24%);
+  }
+
+  main {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .invisible-button {
+    display: flex;
+  }
+}

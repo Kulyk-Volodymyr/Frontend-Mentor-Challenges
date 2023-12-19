@@ -1,0 +1,155 @@
+@media screen and (min-width: 576px) {
+  .wrapper {
+    padding: 0 2.5em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    max-width: calc(1110px + 8em);
+    padding: 0 4em;
+  }
+
+  .request-btn {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 2.7em;
+    text-align: left;
+  }
+
+  h2 {
+    font-size: 2em;
+    letter-spacing: -0.3px;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 1.4em;
+    text-align: left;
+  }
+
+  .section-1 {
+    background-image: url("./images/bg-intro-desktop.svg");
+    background-position: left 43vw top -260px;
+    background-size: initial;
+    padding: 9.5em 0;
+  }
+
+  .section-1 div:first-child {
+    position: relative;
+    z-index: 20;
+  }
+
+  .section-1-info {
+    max-width: 420px;
+  }
+
+  .section-1 p {
+    font-size: 1em;
+    letter-spacing: -0.3px;
+    line-height: 1.6em;
+    margin: 1.2em auto 1.8em auto;
+    text-align: left;
+  }
+
+  .img-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    top: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  .section-1 img {
+    bottom: 0;
+    display: block;
+    max-width: none;
+    position: absolute;
+    right: 0;
+    transform: translateX(48%) translateY(60px);
+    width: 600px;
+  }
+
+  .section-2 {
+    padding: 5.9em 0 5.6em 0;
+  }
+
+  .section-2 h3 {
+    letter-spacing: -1px;
+    margin: 1.5em 0 1em 0;
+  }
+
+  .section-2-info p {
+    font-size: 1em;
+    letter-spacing: -0.3px;
+    line-height: 1.6em;
+    margin-top: 1.3em;
+    max-width: 620px;
+    text-align: left;
+  }
+
+  .section-2 .cards {
+    column-gap: 1.9em;
+    row-gap: 4em;
+    margin-top: 4em;
+  }
+
+  .section-2 .cards p {
+    font-size: 0.9em;
+    letter-spacing: -0.4px;
+    line-height: 1.6em;
+    text-align: left;
+  }
+
+  .section-3 {
+    padding: 5em 0 4.2em 0;
+  }
+
+  .section-3 .cards {
+    margin-top: 2.6em;
+  }
+
+  .section-3-card-info {
+    margin: 1.6em 1.4em;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card img {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.2em;
+  }
+
+  .section-1-info {
+    max-width: 440px;
+  }
+
+  .section-1 img {
+    transform: translateX(48%) translateY(162px);
+    width: initial;
+  }
+
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .section-1 img {
+    transform: translateX(70%) translateY(162px);
+  }
+}
