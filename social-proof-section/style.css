@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 280px;
+  padding: 5.4em 1.6em;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2em;
+  max-width: 460px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+/* =================== Info ===================*/
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
+.info-text {
+  text-align: center;
+}
+
+.info-text h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 2.5em;
+  max-width: 360px;
+  margin: auto;
+}
+
+.info-text p {
+  color: hsl(303, 10%, 53%);
+  font-size: 1.2em;
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  line-height: 1.4em;
+  margin-top: 1em;
+}
+
+.info-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+}
+
+.rating-item {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  margin: 1.1em auto;
+}
+
+.rating-item p {
+  color: hsl(300, 43%, 22%);
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-bottom: 0.8em;
+}
+
+/* =============== Testimonials ===============*/
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+}
+
+.testimonial {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 0.5em;
+  padding: 2.7em 2em 2.2em 2em;
+}
+
+.testimonial-header {
+  display: flex;
+  gap: 1.5em;
+  height: 40px;
+}
+
+.testimonial-header img {
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+
+.testimonial-header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.testimonial-header-info p:first-child {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.testimonial-header-info p:last-child {
+  color: hsl(333, 80%, 67%);
+  letter-spacing: 1px;
+}
+
+.testimonial > p {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  line-height: 1.4em;
+  margin-top: 2em;
+}
+
+/* =============== Attribution ================*/
+.attribution {
+  align-items: flex-end;
+  color: hsl(303, 10%, 70%);
+  display: flex;
+  font-size: 11px;
+  font-weight: 200;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1em 1.6em;
+  position: absolute;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(303, 10%, 53%);
+  font-weight: 400;
+}
+
+.attribution a:hover {
+  color: hsl(300, 43%, 22%);
+}
+
+/* ============== Min-width 900px =============*/
+@media screen and (min-width: 900px) {
+  body {
+    padding: 4em 3em;
+  }
+  .container {
+    gap: 5em;
+    max-width: 1110px;
+  }
+
+  /* ================== Info ==================*/
+  .info {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info-text {
+    text-align: left;
+  }
+
+  .info-text h1 {
+    font-size: 3.8em;
+    letter-spacing: -2.5px;
+    line-height: 0.85em;
+    margin: 0;
+  }
+
+  .info-text p {
+    letter-spacing: -0.2px;
+    margin-top: 1.3em;
+    max-width: 440px;
+  }
+
+  .info-rating {
+    padding-top: 0.6em;
+  }
+
+  .rating-item {
+    align-items: center;
+    display: flex;
+    text-align: left;
+    width: 445px;
+  }
+
+  .rating-stars {
+    gap: 0.6em;
+    justify-content: left;
+    margin: 1.3em 2em 1.3em 2em;
+  }
+
+  .rating-item p {
+    margin-bottom: 0;
+  }
+
+  /* ============== Testimonials ==============*/
+  .testimonials {
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  .testimonial {
+    flex: 1;
+    padding: 2.7em 2em 2.5em 2em;
+  }
+}
+
+/* ============= Min-width 1020px =============*/
+@media screen and (min-width: 1020px) {
+  .container {
+    gap: 7em;
+  }
+
+  /* ================== Info ==================*/
+  .info-rating .rating-item:nth-child(1) {
+    transform: translateX(-6.4em);
+  }
+
+  .info-rating .rating-item:nth-child(2) {
+    transform: translateX(-3.2em);
+  }
+
+  /* ============== Testimonials ==============*/
+  .testimonials .testimonial:nth-child(1) {
+    transform: translateY(-2.2em);
+  }
+
+  .testimonials .testimonial:nth-child(2) {
+    transform: translateY(-1.1em);
+  }
+}
