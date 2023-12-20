@@ -5,6 +5,6 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/social-proof-section/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-four-card-section-by-grid-layout-FR0Ewf7qw7)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-social-proof-section-fVo_Ah3FtT)
 
 ![This is an image](./design/desktop-preview.jpg)
