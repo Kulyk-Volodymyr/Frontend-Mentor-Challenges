@@ -6,7 +6,10 @@
 
 body {
   align-items: center;
-  background-color: hsl(0, 0%, 98%);
+  background-image: url("./images/bg-pattern-top-mobile.svg"),
+    url("./images/bg-pattern-bottom-mobile.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
   display: flex;
   font-family: "League Spartan", sans-serif;
   font-size: 15px;
@@ -159,6 +162,8 @@ body {
 /* ============== Min-width 900px =============*/
 @media screen and (min-width: 900px) {
   body {
+    background-image: url("./images/bg-pattern-top-desktop.svg"),
+      url("./images/bg-pattern-bottom-desktop.svg");
     padding: 4em 3em;
   }
   .container {
