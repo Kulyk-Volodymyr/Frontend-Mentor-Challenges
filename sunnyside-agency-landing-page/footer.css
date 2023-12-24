@@ -1,0 +1,72 @@
+footer {
+  background-color: hsl(168, 34%, 76%);
+  padding: 3.8em 1em 4.2em 1em;
+  position: relative;
+  text-align: center;
+}
+
+.footer-logo svg {
+  transform: scale(1.4);
+}
+
+#footer-navbar ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 2.3em auto 5em auto;
+  max-width: 300px;
+  width: 100%;
+}
+
+#footer-navbar li {
+  color: hsl(168, 34%, 41%);
+  cursor: pointer;
+  font-family: "Barlow", sans-serif;
+  font-size: 1em;
+  list-style: none;
+}
+
+#footer-navbar li:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+.social-icons {
+  display: inline-flex;
+  gap: 1.5em;
+}
+
+.social-icons svg:hover {
+  cursor: pointer;
+}
+
+.social-icons svg:hover path {
+  fill: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  bottom: 11em;
+  font-family: "Barlow", sans-serif;
+  font-size: 11px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 160px;
+}
+
+.attribution p {
+  color: hsl(168, 34%, 51%);
+  line-height: 2em;
+}
+
+.attribution a {
+  color: hsl(168, 34%, 46%);
+}
+
+.attribution a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+@media screen and (min-width: 576px) {
+  footer {
+    padding: 4.2em 1em 3.7em 1em;
+  }
+}
