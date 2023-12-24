@@ -213,7 +213,8 @@ section img {
 
   .banner-info h1 {
     font-size: 3em;
-    letter-spacing: 13px;
+    font-weight: 900;
+    letter-spacing: 12px;
   }
 
   .banner-info img {

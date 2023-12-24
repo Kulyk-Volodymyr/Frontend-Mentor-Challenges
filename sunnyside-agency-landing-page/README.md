@@ -5,7 +5,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/sunnyside-agency-landing-page/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-easybank-landing-page-mQgfZ8V_lw)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-sunnyside-agency-page-Y8T4mJ5Swm)
 
 ![This is an image](./design/desktop-preview.jpg)
 
