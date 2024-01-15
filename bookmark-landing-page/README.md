@@ -5,7 +5,7 @@ This is a solution to the [Bookmark landing page challenge on Frontend Mentor](h
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/bookmark-landing-page/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-sunnyside-agency-page-Y8T4mJ5Swm)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-bookmark-page-l15q1IBW6q)
 
 ![This is an image](./design/desktop-preview.jpg)
 

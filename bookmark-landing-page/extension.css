@@ -80,7 +80,7 @@
   #extension-cards .extension-card:nth-child(3) {
     margin-top: 9em;
   }
-  /*
+
   .transform-card-1 {
     transform: translateY(5.5em);
     transition: all 1s;
@@ -100,5 +100,4 @@
     transform: translateY(0);
     transition: all 1s;
   }
-  */
 }
