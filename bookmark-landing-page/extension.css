@@ -1,0 +1,104 @@
+#extension {
+  margin: 8.6em auto 0 auto;
+  padding: 2.2em;
+  text-align: center;
+}
+
+#extension-header p {
+  margin: 0.9em auto 2.8em auto;
+}
+
+#extension-cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8em;
+}
+
+.extension-card {
+  border-radius: 1rem;
+  box-shadow: 0 0.4rem 0.6rem hsla(229, 8%, 60%, 0.3);
+  max-width: 280px;
+  overflow: hidden;
+  width: 90%;
+}
+
+.extension-card-logo {
+  margin: 3.5em auto 2em auto;
+}
+
+.extension-card p {
+  margin: 0.6em auto 1.7em auto;
+}
+
+.extension-card button {
+  background: linear-gradient(90deg, #fff 50%, var(--soft-blue) 50%);
+  border-color: var(--soft-blue);
+  box-shadow: var(--btn-shadow);
+  color: #fff;
+  margin: 1.4em auto 1.8em auto;
+  width: 82%;
+}
+
+.extension-card button:hover {
+  color: var(--soft-blue);
+}
+
+@media screen and (min-width: 768px) {
+  #extension {
+    margin: 6.6em auto 0 auto;
+  }
+
+  #extension-header p {
+    margin: 1.2em auto -1.5em auto;
+    max-width: 540px;
+  }
+
+  #extension-cards {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .extension-card-logo {
+    margin: 2.5em auto 1.5em auto;
+  }
+
+  .extension-card p {
+    font-size: 0.85rem;
+    margin: 0.6em auto 1.4em auto;
+  }
+
+  .extension-card button {
+    margin: 1.4em auto 1.6em auto;
+  }
+
+  #extension-cards .extension-card:nth-child(2) {
+    margin-top: 4.5em;
+  }
+
+  #extension-cards .extension-card:nth-child(3) {
+    margin-top: 9em;
+  }
+  /*
+  .transform-card-1 {
+    transform: translateY(5.5em);
+    transition: all 1s;
+  }
+
+  .transform-card-2 {
+    transform: translateY(3.25em);
+    transition: all 1s;
+  }
+
+  .transform-card-3 {
+    transform: translateY(1em);
+    transition: all 1s;
+  }
+
+  .extension-card-move {
+    transform: translateY(0);
+    transition: all 1s;
+  }
+  */
+}

@@ -1,0 +1,151 @@
+#banner {
+  margin-top: 2em;
+  position: relative;
+}
+
+#banner-image {
+  position: relative;
+  text-align: center;
+}
+
+#banner-image img {
+  margin-bottom: 0.5em;
+  position: relative;
+  width: 94%;
+}
+
+#banner-image-bg {
+  background-color: var(--soft-blue);
+  border-top-left-radius: 300px;
+  border-bottom-left-radius: 300px;
+  bottom: 0;
+  height: 78%;
+  position: absolute;
+  right: 0;
+  width: 82%;
+}
+
+#banner-info-text {
+  padding: 2.8rem 2.2em;
+  text-align: center;
+}
+
+#banner-info-text p {
+  margin: 0.8rem auto 1.75rem auto;
+}
+
+#banner-info-btns {
+  display: flex;
+  gap: 0.9rem;
+  margin: auto;
+  max-width: 343px;
+}
+
+#banner-info-btns button:first-child {
+  background: linear-gradient(90deg, #fff 50%, var(--soft-blue) 50%);
+  border-color: var(--soft-blue);
+  box-shadow: var(--btn-shadow);
+  color: #fff;
+  flex: 1;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#banner-info-btns button:first-child:hover {
+  border-color: var(--soft-blue);
+  color: var(--soft-blue);
+}
+
+#banner-info-btns button:last-child {
+  background: linear-gradient(90deg, #fff 50%, #f7f7f7 50%);
+  border-color: #f7f7f7;
+  box-shadow: var(--btn-shadow);
+  color: #5a5967;
+  flex: 1;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+#banner-info-btns button:last-child:hover {
+  border-color: #5a5967;
+}
+
+@media screen and (min-width: 768px) {
+  #banner {
+    margin-top: 3em;
+    padding: 0 2.2em;
+  }
+
+  #banner-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 60%;
+  }
+
+  #banner-image img {
+    margin-bottom: 1.5em;
+    max-width: 650px;
+    position: relative;
+    width: 100%;
+  }
+
+  #banner-image-bg {
+    background-color: var(--soft-blue);
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    bottom: 0;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    width: 73%;
+  }
+
+  #banner-info {
+    margin: 0 auto 7em auto;
+    max-width: var(--max-width);
+  }
+
+  #banner-info-text {
+    max-width: 500px;
+    padding: 1em 0 0 0;
+    text-align: left;
+    width: 40%;
+  }
+
+  #banner-info-text p {
+    margin: 1.5rem auto 1.75rem auto;
+  }
+
+  #banner-info-btns {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  #banner-info {
+    margin: 0 auto 10em auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #banner-image {
+    width: 49%;
+  }
+
+  #banner-info {
+    margin: 0 auto 7em auto;
+  }
+
+  #banner-info-text {
+    padding: 3em 0 0 0;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #banner-info-text {
+    padding: 4.5em 0 0 0;
+  }
+}

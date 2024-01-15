@@ -1,0 +1,107 @@
+#faq {
+  min-width: var(--min-width);
+  margin: 8em auto 0 auto;
+  max-width: 620px;
+  padding: 0 2.2em;
+  text-align: center;
+  width: 100%;
+}
+
+#faq h2 + p {
+  margin: 1.2em auto 3em auto;
+}
+
+#questions {
+  border-bottom: 1px solid var(--grayish-light-blue);
+  text-align: left;
+}
+
+#questions details[open] p {
+  animation: sweep 0.6s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-left: -1em;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
+}
+
+#questions summary {
+  align-items: center;
+  border-top: 1px solid var(--grayish-light-blue);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1em;
+  padding: 1.5em 0;
+  letter-spacing: -0.2px;
+  list-style: none;
+}
+
+#questions details summary svg {
+  transition: all 0.3s;
+}
+
+#questions details[open] summary svg {
+  transform: rotate(180deg);
+  transition: all 0.6s;
+}
+
+#questions details summary svg path {
+  transition: all 0.3s;
+}
+
+#questions details[open] summary svg path {
+  stroke: var(--soft-red);
+  transition: all 0.6s;
+}
+
+#questions p {
+  line-height: 2.1;
+  margin: 1em auto 2.5em auto;
+}
+
+#faq button {
+  background: linear-gradient(90deg, #fff 50%, var(--soft-blue) 50%);
+  border-color: var(--soft-blue);
+  box-shadow: var(--btn-shadow);
+  color: #fff;
+  margin-top: 2.6rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+#faq button:hover {
+  color: var(--soft-blue);
+}
+
+@media screen and (min-width: 768px) {
+  #faq {
+    margin: 6.5em auto 0 auto;
+  }
+
+  #faq h2 + p {
+    margin: 1.3em auto 3.2em auto;
+  }
+
+  #questions summary {
+    font-size: 1.1em;
+    letter-spacing: -0.8px;
+    padding: 1.05em 0;
+  }
+
+  #questions p {
+    font-size: 0.9em;
+    line-height: 2.2;
+    margin: 1em auto 1.9em auto;
+  }
+
+  #faq button {
+    margin-top: 3rem;
+  }
+}

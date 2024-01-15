@@ -1,0 +1,141 @@
+#join {
+  background-color: var(--soft-blue);
+  min-width: var(--min-width);
+  margin: 8.7em auto 0 auto;
+  width: 100%;
+}
+
+#join-container {
+  margin: 0 auto;
+  max-width: 520px;
+  padding: 4.9em 2.2em 4.3em 2.2em;
+  position: relative;
+  text-align: center;
+}
+
+#join-container > p {
+  color: #fff;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+#join-container h2 {
+  color: #fff;
+  margin: 0.4em auto 1.5em auto;
+}
+
+#join-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.join-email-container {
+  position: relative;
+  width: 100%;
+}
+
+.join-email {
+  border: 2px solid #fff;
+  border-radius: 0.3rem;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.8rem;
+  outline: none;
+  padding-bottom: 0.7rem;
+  padding-top: 0.8rem;
+  text-indent: 1em;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.join-email-invalid {
+  border-color: var(--soft-red);
+  border-bottom-width: 1.8em;
+  transition: all 0.3s;
+}
+
+.join-email::placeholder {
+  color: var(--grayish-blue);
+}
+
+#email-error-text {
+  bottom: 0.3em;
+  color: #fff;
+  font-size: 0.6rem;
+  font-style: italic;
+  left: 1em;
+  position: absolute;
+}
+
+#email-error-img {
+  position: absolute;
+  right: 1rem;
+  top: 0.85rem;
+}
+
+#join-btn {
+  background: linear-gradient(90deg, #fff 50%, var(--soft-red) 50%);
+  background-color: var(--soft-red);
+  border-color: var(--soft-red);
+  box-shadow: var(--btn-shadow);
+  color: #fff;
+  height: fit-content;
+}
+
+#join-btn:hover {
+  background-color: #fff;
+  color: var(--soft-red);
+}
+
+.attribution {
+  bottom: 0.5em;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 100%;
+}
+
+.attribution p {
+  color: var(--grayish-blue);
+  font-size: 12px;
+}
+
+.attribution a {
+  color: hsl(229, 8%, 70%);
+}
+
+.attribution a:hover {
+  color: var(--grayish-light-blue);
+}
+
+@media screen and (min-width: 576px) {
+  #join {
+    margin: 8.3em auto 0 auto;
+  }
+
+  #join-container {
+    padding: 3.8em 2.2em 4.2em 2.2em;
+    text-align: center;
+  }
+
+  #join-container > p {
+    font-size: 0.75rem;
+    letter-spacing: 0.37em;
+  }
+
+  #join-container h2 {
+    margin: 1.2em auto 1.2em auto;
+  }
+
+  #join-container form {
+    flex-direction: row;
+  }
+
+  .join-email-container {
+    flex: 2.4;
+  }
+
+  #join-btn {
+    flex: 1;
+  }
+}
