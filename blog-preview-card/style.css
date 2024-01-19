@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 240px;
+  padding: 3em 1.5em;
+  position: relative;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 1.2em;
+  color: hsl(0, 0%, 7%);
+  box-shadow: 0.5em 0.5em 0 hsl(0, 0%, 7%);
+  max-width: min-content;
+  padding: 1.4em;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.imgContainer {
+  border-radius: 0.6em;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+}
+
+h3 {
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 0.35em;
+  font-size: 0.75em;
+  margin: 2em 0 1em 0;
+  padding: 0.5em 1em;
+  width: fit-content;
+}
+
+.date {
+  font-size: 0.75em;
+}
+
+h2 {
+  font-size: 1.25em;
+  margin: 1em 0 0.75em 0;
+}
+
+h2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.info {
+  color: hsl(0, 0%, 50%);
+  font-size: 0.86em;
+  line-height: 1.5;
+}
+
+.user {
+  align-items: center;
+  display: flex;
+  gap: 0.7em;
+  margin-top: 1.5em;
+}
+
+.user img {
+  display: block;
+  width: 32px;
+}
+
+.user p {
+  font-size: 0.9em;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 400px) {
+  h3 {
+    font-size: 0.9em;
+    margin: 1.65em 0 1em 0;
+    padding: 0.35em 0.85em;
+  }
+
+  .date {
+    font-size: 0.87em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin: 0.75em 0;
+  }
+
+  .info {
+    font-size: 0.99em;
+    line-height: 1.5;
+  }
+}
+
+.attribution {
+  align-items: flex-end;
+  color: hsl(0, 0%, 60%);
+  display: flex;
+  font-size: 11px;
+  font-weight: 300;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1em 0;
+  position: absolute;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(0, 0%, 50%);
+  font-weight: 400;
+}
+
+.attribution a:hover {
+  color: hsl(0, 0%, 100%);
+}
