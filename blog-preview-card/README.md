@@ -5,6 +5,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/blog-preview-card/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-o-YzJSx33f)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-C-jcmQAdaC)
 
 ![This is an image](./design/desktop-preview.jpg)
