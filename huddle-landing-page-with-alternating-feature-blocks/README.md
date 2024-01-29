@@ -5,7 +5,7 @@ This is a solution to the [Huddle landing page with alternating feature blocks c
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/huddle-landing-page-with-alternating-feature-blocks/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-sunnyside-agency-page-Y8T4mJ5Swm)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-huddle-page-TTQ4OVTtI8)
 
 ![This is an image](./design/desktop-preview.jpg)
 

@@ -665,6 +665,7 @@ address {
 
   .footer-container {
     flex-direction: row-reverse;
+    gap: 4em;
     justify-content: space-between;
     margin: auto;
     max-width: 1200px;

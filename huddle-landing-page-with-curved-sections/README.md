@@ -5,7 +5,7 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/huddle-landing-page-with-curved-sections/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-sunnyside-agency-page-Y8T4mJ5Swm)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-huddle-page-with-curved-sections-jkAKc39FWY)
 
 ![This is an image](./design/desktop-preview.jpg)
 
