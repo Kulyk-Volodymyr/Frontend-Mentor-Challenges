@@ -5,7 +5,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/intro-section-with-dropdown-navigation/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-huddle-page-with-curved-sections-jkAKc39FWY)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-intro-section-dMccpOFFyx)
 
 ![This is an image](./design/desktop-preview.jpg)
 
