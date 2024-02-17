@@ -1,0 +1,331 @@
+:root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--almost-white);
+  font-family: "Epilogue", sans-serif;
+  min-width: 240px;
+}
+
+main {
+  margin: auto;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+}
+
+.illustration {
+  position: relative;
+  width: 100%;
+}
+
+.illustration:first-child img {
+  display: block;
+  width: 100%;
+}
+
+#man-photo {
+  /*animation: photoAnimation 4s infinite;*/
+  border-bottom-right-radius: 0% 0%;
+  border-bottom-left-radius: 50% 50%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  display: block;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 25%;
+  width: 50%;
+}
+
+@keyframes photoAnimation {
+  from {
+    border-bottom-right-radius: 0% 0%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+  }
+
+  1% {
+    border-bottom-right-radius: 0% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+  }
+  24% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 0% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+  }
+
+  25% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 0% 0%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+  }
+
+  26% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 0%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+  }
+  49% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 0%;
+    border-top-right-radius: 50% 50%;
+  }
+
+  50% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 0% 0%;
+    border-top-right-radius: 50% 50%;
+  }
+
+  51% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 0% 50%;
+    border-top-right-radius: 50% 50%;
+  }
+  74% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 0% 50%;
+  }
+
+  75% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 0% 0%;
+  }
+
+  76% {
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 0%;
+  }
+  99% {
+    border-bottom-right-radius: 50% 0%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+  }
+
+  to {
+    border-bottom-right-radius: 0% 0%;
+    border-bottom-left-radius: 50% 50%;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+  }
+}
+
+.info {
+  padding: 3.1rem 1rem 0 1rem;
+  text-align: center;
+}
+
+.info h1 {
+  color: var(--almost-black);
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.info p {
+  color: var(--medium-gray);
+  line-height: 1.6;
+  margin: 1.25rem 0 1.5rem 0;
+}
+
+.info button {
+  background-color: var(--almost-black);
+  border: 1px solid var(--almost-black);
+  border-radius: 1rem;
+  color: var(--almost-white);
+  font-family: "Epilogue", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+  padding: 1rem 1.3rem;
+  transition: all 0.2s;
+}
+
+.info button:hover {
+  background-color: transparent;
+  color: var(--almost-black);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.partners {
+  align-items: center;
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  margin: 2.7rem auto 0 auto;
+  width: 80%;
+}
+
+.partners img {
+  display: block;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.attribution p {
+  color: hsl(0, 0%, 71%);
+}
+
+.attribution a {
+  color: var(--medium-gray);
+  font-weight: 400;
+}
+
+.attribution a:hover {
+  color: var(--almost-black);
+}
+
+@media screen and (min-width: 370px) {
+  .partners {
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    margin: 2.7rem auto 0 auto;
+    width: 100%;
+    max-width: 540px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-top: 2.95rem;
+    padding-right: 2rem;
+  }
+
+  .banner {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+
+  .illustration {
+    max-width: 380px;
+  }
+
+  #man-photo {
+    height: 50%;
+    top: 25%;
+    right: 0;
+    width: auto;
+  }
+
+  .info {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 530px;
+    padding: 2rem 0 0 0;
+    text-align: left;
+  }
+
+  .info h1 {
+    font-size: 2.6rem;
+    max-width: 280px;
+  }
+
+  .info p {
+    font-size: 18px;
+    margin: 0;
+    max-width: 480px;
+  }
+
+  .info button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    margin: 0 0 3rem 0;
+    padding: 1.1rem 1.8rem;
+  }
+
+  .partners {
+    display: flex;
+    margin: 0;
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    max-width: calc(1180px + 4rem);
+    padding-left: 4.2rem;
+  }
+
+  .illustration {
+    max-width: 480px;
+  }
+
+  .info {
+    padding: 4.5rem 0 0 0;
+  }
+
+  .info h1 {
+    font-size: 4rem;
+    max-width: 430px;
+  }
+
+  .partners {
+    max-width: 479px;
+  }
+
+  .partners img {
+    width: initial;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .info {
+    padding: 6.4rem 0 0 0;
+  }
+
+  .info h1 {
+    font-size: 5rem;
+    letter-spacing: -1px;
+    max-width: none;
+  }
+
+  .info button {
+    margin: 0.5rem 0 3.6rem 0;
+  }
+
+  .partners {
+    transform: translateY(0.4rem);
+  }
+}
