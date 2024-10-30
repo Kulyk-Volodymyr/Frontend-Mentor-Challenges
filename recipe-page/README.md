@@ -5,6 +5,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Live Site URL: [Netlify](https://frontendmentor-solutions.netlify.app/recipe-page/)
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-C-jcmQAdaC)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/recipe-page-landing-RTiWySOXfv)
 
 ![This is an image](./design/preview.jpg)
